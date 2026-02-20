@@ -37,4 +37,4 @@
 
 ## 📁 풀이 파일
 
-- [Python 풀이](./python/260216_Daily_1629_곱셈.py)
+- [Python 풀이](./python/260216_Daily_1629_Multiplication.py)
