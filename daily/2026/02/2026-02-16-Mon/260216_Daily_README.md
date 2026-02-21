@@ -39,4 +39,4 @@
 
 ## 📁 풀이 파일
 
-- [Python 풀이](./python/260216_Daily_1629_Multiplication.py)
+- [Python 풀이 1_곱셈](./python/260216_Daily_1629_Multiplication.py)

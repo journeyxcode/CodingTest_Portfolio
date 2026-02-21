@@ -50,4 +50,4 @@
 ## 📁 풀이 파일
 - [Python 풀이 1_AxB](./python/260220_Daily_10998_AxB.py)
 - [Python 풀이 2_A-B](./python/260220_Daily_1001_A-B.py)
-- [Python 풀이 3_A+B](./python/260220_Daily_1001_A+B.py)
+- [Python 풀이 3_A+B](./python/260220_Daily_1000_A+B.py)
