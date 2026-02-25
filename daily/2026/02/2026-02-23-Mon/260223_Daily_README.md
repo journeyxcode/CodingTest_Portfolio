@@ -36,5 +36,5 @@
 
 ## 📁 풀이 파일
 
-- [Python 풀이 1_꼬마정민](./python/260223_Daily_1008_AB_division.py)
+- [Python 풀이 1_A/B](./python/260223_Daily_1008_AB_division.py)
 
