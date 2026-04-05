@@ -13,12 +13,13 @@
 | | 정보 |
 |---|---|
 | **Background** | Android Developer  — Automotive, Healthcare, Smart Home |
-| **Goal** | AI Application Developer with Mobile AI expertise |
+| **Goal** | AI Application Engineer — LLM 기반 AI 서비스 개발 |
 | **Period** | 2025.10 ~ 2026.05 (AI 20기 Bootcamp) |
 | **Languages** | 🐍 Python (Main) &nbsp;/&nbsp; ☕ Java &nbsp;/&nbsp; 🎯 Kotlin (Sub) |
 
 > 💡 **한 줄 전환 스토리**  
-> 안드로이드 개발 경험을 바탕으로 AI 엔지니어를 목표로 합니다.
+> 8년간 Android 개발자로 일하며 사용자와 가장 가까운 곳에서 개발해왔습니다.
+> 이제는 그 경험을 바탕으로 AI 엔지니어로 나아가고 있습니다.
 
 <br>
 
@@ -26,21 +27,21 @@
 
 ## 📊 현재 학습 현황 | Progress Dashboard
 
-> ⚡ **매일 업데이트됩니다** | Updated daily
+> ⚡ **지속적으로 업데이트됩니다** | Continuously updated
 
 ### 플랫폼별 풀이 수
 
-> 26/03/19 기준 작성 : 27개
+> 26/03/28 기준 작성 : 32개
 
 | 플랫폼 | 풀이 수 |
 |--------|--------|
-| 🔵 Baekjoon | 31 |
-| **Total** | **31** |
+| 🔵 Baekjoon | 32 |
+| **Total** | **32** |
 
 ### 언어별 풀이 수
 | 언어 | 문제 수 |
 |------|--------|
-| 🐍 Python | 31 |
+| 🐍 Python | 32 |
 
 <br>
 
