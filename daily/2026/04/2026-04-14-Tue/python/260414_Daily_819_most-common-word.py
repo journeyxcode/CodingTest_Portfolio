@@ -2,7 +2,7 @@
 ╔══════════════════════════════════════════════════════════╗
 ║  문제명 : Most Common Word (819)
 ║  플랫폼 : Leetcode
-║  분류 : Two Pointers, String
+║  분류 : Array, Hash Table, String
 ║  난이도 : Easy
 ║  풀이일 : 2026-04-14
 ║  소요시간 : 30분 이상
