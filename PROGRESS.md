@@ -1,7 +1,7 @@
 # 📈 전체 풀이 이력 | Full Progress Log
 
-> 26/04/18 기준 작성 : 43개 문제
-    > 4월(11)/3월(14)/2월(18)
+> 26/04/26 기준 작성 : 49개 문제
+    > 4월(17)/3월(14)/2월(18)
 
 > 최신순 정렬 | Sorted by latest  
 > 트러블슈팅이 있는 날은 ✅ 표시
@@ -28,7 +28,13 @@
 | 8 | 26/04/13 | Valid Palindrome (125) | Leetcode | Two Pointers, String | Easy | Python | ✅ | [🔗](./daily/2026/04/2026-04-13-Mon/) |
 | 9 | 26/04/14 | Most Common Word (819) | Leetcode | Array, Hash Table, String | Easy | Python | 없음 | [🔗](./daily/2026/04/2026-04-14-Tue/) |
 | 10 | 26/04/18 | Palindrome Linked List (234) | Leetcode | Linked List, Two Pointers, Stack, Recursion | Easy | Python | ✅ | [🔗](./daily/2026/04/2026-04-18-Sat/) |
-| 11 | 26/04/19 | Palindrome Number (9) | Leetcode | Math | Easy | Python | ✅ | [🔗](./daily/2026/04/2026-04-19-Sun/) |
+| 11 | 26/04/19 | Palindrome Number (9) | Leetcode | Math | Easy | Python | 없음 | [🔗](./daily/2026/04/2026-04-19-Sun/) |
+| 12 | 26/04/21 | 두 수의 차 구하기 (120803) | Programmers | 코딩테스트 입문 | Lv.0 | Python | 없음 | [🔗](./daily/2026/04/2026-04-21-Tue/) |
+| 13 | 26/04/21 | 몫 구하기 (120805) | Programmers | 코딩테스트 입문 | Lv.0 | Python | 없음 | [🔗](./daily/2026/04/2026-04-21-Tue/) |
+| 14 | 26/04/21 | 나머지 구하기 (120810) | Programmers | 코딩테스트 입문 | Lv.0 | Python | 없음 | [🔗](./daily/2026/04/2026-04-21-Tue/) |
+| 15 | 26/04/22 | 예산 (2512) | Baekjoon | 이분탐색, 매개변수탐색 | 실버 Lv.2 | Python | ✅ | [🔗](./daily/2026/04/2026-04-22-Wed/) |
+| 16 | 26/04/23 | 두 수의 나눗셈 (120806) | Programmers | 코딩테스트 입문 | Lv.0 | Python | 없음 | [🔗](./daily/2026/04/2026-04-23-Thu/) |
+| 17 | 26/04/23 | 두 수의 곱하기 (120804) | Programmers | 코딩테스트 입문 | Lv.0 | Python | 없음 | [🔗](./daily/2026/04/2026-04-23-Thu/) |
 
 <!-- 풀이를 추가할 때마다 위 표에 한 줄씩 추가하세요. 가장 최근 풀이가 맨 위에 오도록 유지합니다. -->
 
@@ -38,7 +44,7 @@
 
 ## 🔥 트러블슈팅 모음 | Trouble Shooting Archive
 
-> 26/04/19 기준 작성 : 5개
+> 26/04/26 기준 작성 : 6개
 
 > 막혔던 문제들을 모아서 패턴을 파악합니다.  
 
@@ -49,6 +55,7 @@
 | 3 | 26/04/05 | 오큰수 (17298) | 이중 for문 시간초과, IndexError 발생 | 스택 O(N) 풀이로 변경 + answer = [-1] * size 초기화 | 시간(O(N)), 공간(O(N)) | [🔗](./daily/2026/04/2026-04-05-Sun/) |
 | 4 | 26/04/13 | Valid Palindrome (125) | 풀이방법 떠올리지 못함 | 문자열순회,영숫자 필터링, 소문자 변환, 파일 슬라이싱 활용 | 시간(O(N)), 공간(O(N)) | [🔗](./daily/2026/04/2026-04-13-Mon/) |
 | 5 | 26/04/18 | Palindrome Linked List (234) | 풀이방법 떠올리지 못함 | 연결 리스트 값 배열 복사, 뒤집어 비교 | 시간(O(N)), 공간(O(N)) | [🔗](./daily/2026/04/2026-04-18-Sat/) |
+| 6 | 26/04/22 | 예산 (2512) | 풀이방법 떠올리지 못함 | 상한액 결정을 위한 while 문, min변수들의 sum과 total 비교| 시간(O(N log N)), 공간(O(N)) | [🔗](./daily/2026/04/2026-04-22-Wed/) |
 
 <br>
 
