@@ -119,24 +119,36 @@ else:
 # ──────────────────────────────────────────────
 # 대안 1 - 판별 함수 분리 적용
 # ──────────────────────────────────────────────
+# import sys
+# input = sys.stdin.readline
+
+# # 상한액(mid)을 가정했을 때 총 배정액이 총예산 이하인지 판별
+# # mid : 상한액 후보값
+# # budgets : 각 지방의 예산 요청 리스트
+# # total : 국가 총예산
 # def is_possible(mid, budgets, total):
+#     # 각 지방의 신청액과 상한액 중 작은 값으로 배정 후 합산
+#     # 합계가 총예산 이하면 True, 초과면 False
 #     return sum(min(b, mid) for b in budgets) <= total
 
-# size = int(input())
-# budgets = list(map(int, input().split()))
-# total = int(input())
+# size = int(input())                            # 지방의 수
+# budgets = list(map(int, input().split()))      # 각 지방의 예산 요청액
+# total = int(input())                           # 국가 총예산
 
+# # 엣지 케이스 : 모든 요청액의 합이 총예산 이하면
+# # 상한액 없이 전액 배정 가능 → 최대 요청액이 상한액
 # if sum(budgets) <= total:
 #     print(max(budgets))
 # else:
-#     lo, hi, answer = 1, max(budgets), 0
+#     lo, hi, answer = 1, max(budgets), 0  # lo : 상한액 최솟값, hi : 상한액 최댓값, answer : 정답 저장
 
-#     while lo <= hi:
-#         mid = (lo + hi) // 2
-#         if is_possible(mid, budgets, total):
-#             answer = mid
-#             lo = mid + 1
-#         else:
-#             hi = mid - 1
+#     while lo <= hi:                      # lo > hi 가 되면 탐색 종료
+#         mid = (lo + hi) // 2             # 현재 상한액 후보값 (정답 후보값)
 
-#     print(answer)
+#         if is_possible(mid, budgets, total):  # 상한액이 mid일 때 총예산 이하로 배정 가능한 경우
+#             answer = mid                      # 가능한 값 중 최댓값 갱신
+#             lo = mid + 1                      # 더 큰 상한액도 가능한지 탐색
+#         else:                                 # 총예산 초과인 경우
+#             hi = mid - 1                      # 상한액을 줄여서 재탐색
+
+#     print(answer)                        # 가능했던 상한액 중 최댓값 출력
